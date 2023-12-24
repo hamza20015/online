@@ -1,0 +1,191 @@
+body {
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header a {
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 24px; /* تصغير حجم الخط لتكون مناسبة للهواتف المحمولة */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 80px; /* تعديل الحشو ليكون مناسبًا للهواتف المحمولة */
+    background: linear-gradient(rgb(58, 56, 132), rgb(15, 82, 182));
+}
+
+h1 {
+    font-size: 40px;
+}
+
+ul li a {
+    padding: 10px; /* تعديل الحشو ليكون مناسبًا للهواتف المحمولة */
+    color: bisque;
+    text-decoration: none;
+    font-size: 24px; /* تصغير حجم الخط لتكون مناسبة للهواتف المحمولة */
+    position: relative;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li {
+    margin-right: 15px;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+       
+       
+    }
+}
+@media (max-width: 768px) {
+  ul li a {
+     font-size: 20px;
+    }
+}
+.background{
+    min-height: 100vh;
+    background-image: url(pexels-digvijaysinh-rajput-7209535.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.background h1 {
+    margin-bottom: 20px;
+    background-color: azure;
+    color: rgb(89, 209, 246);
+}
+.sale .one img {
+    height: 200px;
+    width: 180px;
+}
+.sale{
+  padding: 50px 30px;  
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+@media (max-width: 768px) {
+  .sale  .one img  {
+      height: 100px;
+      width: 80px;
+      }}
+      @media (max-width: 768px) {
+        .sale  .one  {
+            width:120px ;
+         
+            }}
+   @media (max-width: 768px) {
+ .sale  .one h1  {
+   font-size: 20px;
+        background-color: black;
+  }}
+   
+.sale .one{
+    box-shadow: 5px 5px 5px 8px  rgb(0, 0, 0);;
+    margin-left: 30px;
+    margin-top: 30px;
+    
+    
+} 
+@media (min-width: 768px) {
+    .sale  .one h1  {
+        font-size:40px ;
+     
+        }}  
+.sale .one h1 {
+    color: rgb(89, 209, 246); ;
+    margin-top: 20px; 
+    margin-bottom: 10px;
+    padding: 0 20px;
+    
+}    
+@media (min-width: 768px) {
+    .sale  .one  {
+        width:220px ;
+     
+        }}
+        .sale .one button{
+            text-align: center;
+            outline: none;
+            border: none;
+            display: block;
+            background-color: black;
+            color: bisque;
+            font-size: 30px;
+            cursor: pointer;
+           right: 30%;
+            position: relative;
+            
+        }
+.clothes{
+    padding: 20px 40px;
+}
+.clothes .two img{
+   height: 400px;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   width: 600px;
+}
+@media (max-width: 768px) {
+    .clothes .two img
+    {
+      height: 200px;
+      width: 300px;
+     }}
+     .clothes .two {
+        background-color: black;
+        width: 610px;
+        margin-top: 30px;
+     }
+     @media (max-width: 768px) {
+        .clothes .two 
+        {
+         width: 320px;
+         }}
+         .clothes .two h1 {
+            color: rgb(89, 209, 246) ;
+            text-align: center;
+
+         }
+         .clothes .two a {
+            color: rgb(89, 209, 246) ;
+            text-align: center;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(108, 68, 15);
+            font-size: 30px;
+         }
+         .clothes{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+         }
+         .clothes .two:hover{
+            box-shadow: 5px 5px 5px 8px  rgb(0, 0, 0);
+          
+         }
+         
